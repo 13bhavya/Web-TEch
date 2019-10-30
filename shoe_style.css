@@ -1,0 +1,210 @@
+
+@media only screen and (min-width:1200px){
+    /*for Desktop*/
+    .background{
+        background-color: #DED6D6;
+    }
+
+    .header {
+        background-color: brown;
+        -moz-box-shadow:    3px 7px 5px 6px brown;
+        -webkit-box-shadow: 3px 7px 5px 6px brown;
+        box-shadow:         3px 7px 5px 6px brown;
+    }
+    .header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 35px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .slogan {
+        font-size: 25;
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        float: left
+    }
+
+    .left {
+        font-size: 1vw;
+        position: relative;
+        text-align: left
+
+    }
+    .right{
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        position: relative;
+        display: flex;
+        justify-content: center
+    }
+    .right:hover{
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        transform: scale(1.04);
+    }
+}
+@media only screen and (min-width:800px) and (max-width:1300px){
+    /*for Tablet*/
+
+    .background{
+        background-color:#DED6D6;
+    }
+    .header {
+        background-color: brown
+    }
+
+    .header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px; 
+    }
+
+    .title {
+        font-size: 35px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .slogan {
+        font-size: 25;
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .left {
+        font-size: 2vw;
+        position: relative;
+        text-align: left;
+
+    }
+    .right{
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        position: relative;
+        display: flex;
+        justify-content: flex-end
+    }
+    .right:hover{
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        transform: scale(1.04);
+    }
+
+}
+@media only screen and (max-width:799px){
+    /*for Mobile*/
+
+    .background{
+        background-color:#DED6D6;
+    }
+
+    .footer{
+        background-color: dodgerblue;
+        font-size: 2vw;
+        padding: 15 px;
+    }
+    .header {
+        background-color: brown
+    }
+
+    .header img {
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 35px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .slogan {
+        font-size: 25;
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+    .left {
+        font-size: 2vw;
+        position: relative;
+        text-align: center;
+
+    }
+    .right{
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        position: relative;
+        justify-content: center
+    }
+    .right:hover{
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        transform: scale(1.04);
+    }
+}
